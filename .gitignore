@@ -5,6 +5,7 @@
 *.o
 *.obj
 *.bc
+*.out
 
 ### D ###
 # Compiled Object files
