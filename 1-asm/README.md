@@ -22,12 +22,10 @@ that instead.
 This is by far the hardest language in this repo, so definitely don't start
 with it. Pick something easier, like COBOL. 
 
-## Some Simple Concepts
+---
 
-`section`: this declares the section you are working with. 
-`section .data` means you are working with variables, and `section .text` is
-where all of the program code goes. 
-
-`mov x, y`: moves x into y (`x = y`)
-`add x, y`: adds x and y and moves it in to x (`x += y`)
-`mul x, y`: multiplies x and y and puts it in x (`x *= y`)
+Notice that the executable for Hello World is smaller than the program itself.
+Now try making Hello World, then find it's size. The Rust compiler generates a
+gigantic executable comparatively. This is because Assembly is the *closest* a
+human can get to machine code while still using normal letters. That lets it 
+make tiny executables, even if the programs are much longer. 
