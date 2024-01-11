@@ -25,7 +25,7 @@ with it. Pick something easier, like COBOL.
 ---
 
 Notice that the executable for Hello World is smaller than the program itself.
-Now try making Hello World, then find it's size. The Rust compiler generates a
-gigantic executable comparatively. This is because Assembly is the *closest* a
-human can get to machine code while still using normal letters. That lets it 
-make tiny executables, even if the programs are much longer. 
+Now try making Hello World in Rust, then find it's size. The Rust compiler
+generates a gigantic executable comparatively. This is because Assembly is the
+*closest* a human can get to machine code while still using normal letters.
+That lets it make tiny executables, even if the programs are much longer. 
