@@ -1,4 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/assembler,d,dart,ocaml,haskell,zig,emacs
+# Created by https://www.toptal.com/developers/gitignore/api/assembler,d,dart,ocaml,nim,zig,emacs
+# Edit at https://www.toptal.com/developers/gitignore?templates=assembler,d,dart,ocaml,nim,zig,emacs
 
 ### Assembler ###
 *.exe
@@ -66,9 +67,65 @@ doc/api/
 .flutter-plugins
 .flutter-plugins-dependencies
 
-# Dart Patch #
+### Dart Patch ###
 # dotenv environment variables file
 .env
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
+
+
+### Nim ###
+nimcache/
+nimblecache/
+htmldocs/
 
 ### OCaml ###
 *.annot
@@ -99,10 +156,12 @@ setup.log
 # Local OPAM switch
 _opam/
 
-### Zig ###
+### zig ###
+# Zig programming language
 
 zig-cache/
 zig-out/
 build-*/
 docgen_tmp/
 
+# End of https://www.toptal.com/developers/gitignore/api/assembler,d,dart,ocaml,nim,zig,emacs
