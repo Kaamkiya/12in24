@@ -1,12 +1,13 @@
-# Created by https://www.toptal.com/developers/gitignore/api/assembler,d,dart,ocaml,nim,zig,emacs
-# Edit at https://www.toptal.com/developers/gitignore?templates=assembler,d,dart,ocaml,nim,zig,emacs
+# Created by https://www.toptal.com/developers/gitignore/api/assembler,d,perl,unison,dart,awk,wren,ocaml,nim,zig,elisp,erlang
+# Edit at https://www.toptal.com/developers/gitignore?templates=assembler,d,perl,unison,dart,awk,wren,ocaml,nim,zig,elisp,erlang
 
 ### Assembler ###
 *.exe
 *.o
 *.obj
 *.bc
-*.out
+
+#!! ERROR: awk is undefined. Use list command to see defined gitignore types !!#
 
 ### D ###
 # Compiled Object files
@@ -71,56 +72,39 @@ doc/api/
 # dotenv environment variables file
 .env
 
-### Emacs ###
-# -*- mode: gitignore; -*-
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
+### Elisp ###
+# Compiled
 *.elc
-auto-save-list
-tramp
-.\#*
 
-# Org-mode
-.org-id-locations
-*_archive
+# Packaging
+.cask
 
-# flymake-mode
-*_flymake.*
+# Backup files
+*~
 
-# eshell files
-/eshell/history
-/eshell/lastdir
+# Undo-tree save-files
+*.~undo-tree
 
-# elpa packages
-/elpa/
+### Erlang ###
+.eunit
+*.beam
+*.plt
+erl_crash.dump
+.concrete/DEV_MODE
 
-# reftex files
-*.rel
+# rebar 2.x
+.rebar
+rel/example_project
+ebin/*.beam
+deps
 
-# AUCTeX auto folder
-/auto/
+# rebar 3
+.rebar3
+_build/
+_checkouts/
 
-# cask packages
-.cask/
-dist/
-
-# Flycheck
-flycheck_*.el
-
-# server auth directory
-/server/
-
-# projectiles files
-.projectile
-
-# directory configuration
-.dir-locals.el
-
-# network security
-/network-security.data
-
+### Erlang Patch ###
+rebar3.crashdump
 
 ### Nim ###
 nimcache/
@@ -137,7 +121,6 @@ htmldocs/
 *.cmxa
 
 # ocamlbuild working directory
-_build/
 
 # ocamlbuild targets
 *.byte
@@ -156,6 +139,45 @@ setup.log
 # Local OPAM switch
 _opam/
 
+### Perl ###
+!Build/
+.last_cover_stats
+/META.yml
+/META.json
+/MYMETA.*
+*.pm.tdy
+*.bs
+
+# Devel::Cover
+cover_db/
+
+# Devel::NYTProf
+nytprof.out
+
+# Dist::Zilla
+/.build/
+
+# Module::Build
+Build
+Build.bat
+
+# Module::Install
+inc/
+
+# ExtUtils::MakeMaker
+/blib/
+/_eumm/
+/*.gz
+/Makefile
+/Makefile.old
+/MANIFEST.bak
+/pm_to_blib
+/*.zip
+
+#!! ERROR: unison is undefined. Use list command to see defined gitignore types !!#
+
+#!! ERROR: wren is undefined. Use list command to see defined gitignore types !!#
+
 ### zig ###
 # Zig programming language
 
@@ -164,4 +186,4 @@ zig-out/
 build-*/
 docgen_tmp/
 
-# End of https://www.toptal.com/developers/gitignore/api/assembler,d,dart,ocaml,nim,zig,emacs
+# End of https://www.toptal.com/developers/gitignore/api/assembler,d,perl,unison,dart,awk,wren,ocaml,nim,zig,elisp,erlang
