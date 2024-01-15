@@ -6,6 +6,7 @@
 *.o
 *.obj
 *.bc
+*.out
 
 #!! ERROR: awk is undefined. Use list command to see defined gitignore types !!#
 
