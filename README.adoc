@@ -1,0 +1,23 @@
+= 12in24
+
+A collection of my projects from the #12in24 challenge, where you try one
+language a month in 2024.
+
+These are the languages I will play with:
+1. Jan: ./01-asm/[Assembly]
+2. Feb: ./02-d/[D]
+3. Mar: Perl
+4. Apr: Crystal
+5. May: Dart
+6. Jun: Awk
+7. Jul: Wren
+8. Aug: OCaml
+9. Sep: Nim
+10. Oct: Zig
+11. Nov: Emacs Lisp
+12. Dec: Erlang
+
+Bonus: https://asciidoc.org/[AsciiDoc]. It's what all the READMEs are written in 
+here :)
+
+See the stories about this project on https://dev.to/kaamkiya/12in24-one-language-a-month-105b77[DEV.to].
