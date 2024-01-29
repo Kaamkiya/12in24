@@ -1,6 +1,7 @@
 module factorial;
 
 import std.stdio;
+import std.string;
 import std.conv;
 
 int fact(int n) { // new function! a lot like c
@@ -10,6 +11,6 @@ int fact(int n) { // new function! a lot like c
 
 void main() {
     write("Enter a number to find the factorial of: ");
-    int number = std.conv.to!int(readln()); // read user input and convert it to int
+    int number = std.conv.to!int(strip(readln())); // read user input and convert it to int
     writeln(fact(number));
 }
