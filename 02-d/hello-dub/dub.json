@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"kaamkiya"
+	],
+	"copyright": "Copyright © 2024, kaamkiya",
+	"description": "A Hello World to Dub, D's package manager",
+	"license": "MIT",
+	"name": "hello-dub"
+}
