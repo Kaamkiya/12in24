@@ -1,0 +1,25 @@
+= Hello, Dub!
+
+This is an example ``dub`` project. Dub is D's package manager, and it's used
+to make libraries and when you have dependencies. 
+
+Run the following command to make a new dub project:
+
+[source,bash]
+----
+dub init $PROJECT_NAME
+----
+
+Replace ``$PROJECT_NAME`` with the name of your project. Dub will then give you
+some prompts. Fill them out as you like, and then see inside of your brand-new
+``dub`` project. 
+
+Some more ``dub`` commands:
+
+[source,bash]
+----
+dub run   # run the project
+dub build # build the project
+----
+
+
