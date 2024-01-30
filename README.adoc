@@ -22,4 +22,4 @@ Bonus: https://asciidoc.org/[AsciiDoc]. It's what all the READMEs are written in
 here :)
 
 See the stories about this project on 
-https://dev.to/kaamkiya/12in24-one-language-a-month-105b77[DEV.to].
+https://dev.to/kaamkiya/12in24-one-language-a-month-105b[DEV.to].
