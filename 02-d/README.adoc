@@ -1,0 +1,21 @@
+= February: D
+
+In February, I learnt https://dlang.org/[D]. I used the ``dmd`` compiler, which
+you can download from the https://dlang.org/downloads.html#dmd[downloads page].
+
+There is an alternative compiler, called ``gdc``, which is part of the GNU
+Compiler Collection (GCC).
+
+To compile a D program, run the following:
+
+[source,bash]
+----
+dmd $FILE.d
+----
+
+Where ``$FILE`` is the name of the file to compile.
+
+'''
+
+D is a C-based language, like many others. It's syntax is quite similar, too.
+If you code in C or C++, this will be quite easy for you to understand.
