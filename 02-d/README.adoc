@@ -18,12 +18,13 @@ Where ``$FILE`` is the name of the file to compile.
 '''
 
 D is a C-based language, like many others. It's syntax is quite similar, too.
-If you code in C or C++, this will be quite easy for you to understand.
+If you code in C or a C-based language, this will be quite easy for you to
+understand.
 
 '''
 
 The ``hello-dub`` directory was made using the ``dub`` command, which comes
 packaged with ``dmd``, but not ``gdc``. For this reason, I recommend ``dmd``,
-although ``gdc`` compiles faster. It really depends on your needs; are you
+although ``gdc`` compiles faster. It really depends on your needs: are you
 making a package that you want to make part of dub? Or are you just making some
 quick scripts?
