@@ -9,7 +9,7 @@ These are the languages I will play with:
 . Feb: https://github.com/Kaamkiya/12in24/tree/main/02-d/[D]
 . Mar: Perl
 . Apr: Crystal
-. May: Dart
+. May: Elixir
 . Jun: Awk
 . Jul: Wren
 . Aug: OCaml
