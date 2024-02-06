@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Kaamkiya"
+	],
+	"copyright": "Copyright © 2024, Kaamkiya",
+	"dependencies": {
+		"sily-terminal": "~>1.3.0"
+	},
+	"description": "An example of using a package with a dub project.",
+	"license": "MIT",
+	"name": "package_use_example"
+}
