@@ -15,7 +15,7 @@ These are the languages I will play with:
 . Aug: OCaml
 . Sep: Nim
 . Oct: Zig
-. Nov: Emacs Lisp
+. Nov: C
 . Dec: Erlang
 
 Bonus: https://asciidoc.org/[AsciiDoc]. It's what all the READMEs are written in 
