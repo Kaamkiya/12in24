@@ -13,7 +13,7 @@ void main(string[] args) {
 	block("Hello World in D", "import std.stdio;\n\nvoid main(string[] args) {\n    writeln(\"Hello, World!\");\n}");
 	
 	auto progressBar = new ProgressBar("Percent done");
-	int incrementer = 5;
+	int incrementer = 1;
 	for (int i = 0; i <= 100; i += incrementer) {
 		progress(*progressBar);
 		Thread.sleep(67.msecs);
