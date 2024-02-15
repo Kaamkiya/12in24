@@ -12,6 +12,8 @@ void main() {
             writeln("Fizz");
         } else if (n % 5 == 0) {
             writeln("Buzz");
+        } else {
+            writefln("%d", n);
         }
     }
 }
