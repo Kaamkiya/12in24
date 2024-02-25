@@ -44,15 +44,30 @@ _start:                                         ; define the entry point
 ;   return 0;
 ; }
 
-; Keep this under your pillow: all the (64-bit) registers
-; ID    rax
-; arg1  rdi
-; arg2  rsi
-; arg3  rdx
-; arg4  r10
-; arg5  r9
-; arg6  r8
-; and then use `syscall` to run the function
+; Keep this under your pillow: all the registers
+; 64-bit register     lowest 23 bits      lowest 16 bits      lowest 8 bits
+; rax                 eax                 ax                  al
+; rbx                 ebx                 bx                  bl
+; rcx                 ecx                 cx                  cl
+; rdx                 edx                 dx                  dl
+; rsi                 esi                 si                  sil
+; rdi                 edi                 di                  dil
+; rbp                 ebp                 bp                  bpl
+; rsp                 esp                 sp                  spl
+; r8                  r8d                 r8w                 r8b
+; r9                  r9d                 r9w                 r9b
+; r10                 r10d                r10w                r10b
+; r11                 r11d                r11w                r11b
+; r12                 r12d                r12w                r12b
+; r13                 r13d                r13w                r13b
+; r14                 r14d                r14w                r14b
+; r15                 r15d                r15w                r15b
+;
+; 64-bit register means that that register stores 64 bits.
+; For example, RAX stores 64 bits. EAX, however, stores the lowest 32 bits of
+; RAX. AX stores the first 16 bits of RAX, and AL stores the first 8 bits of
+; RAX. And so on (EBX is the first 32 bits of RBX, ...)
+
 
 ;;;;;;;;;;;;;;;;;;;;
 ; Data types
