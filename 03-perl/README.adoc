@@ -1,0 +1,12 @@
+= March: Perl
+
+In March, I learnt Perl (v5.36.0). It's the first interpreted language this year!
+
+To run a Perl program, use the following command
+[source,bash]
+----
+perl $FILE.pl
+----
+
+Where ``$FILE`` is the name of the file to run.
+
